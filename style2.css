@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body{
+  background-image: url(img/floral.png);
+}
+
+.container{
+  background-color: #ECF1F4;
+  width: 500px;
+  padding: 1.5rem;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,1,0.9);
+}
+
+form{
+  margin: 0 2rem;
+}
+
+.form-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.fas{
+  line-height: 1.5;
+}
+
+input{
+  color: inherit;
+  width: 100% ;
+  background-color: transparent ;
+  border: none;
+  border-bottom: 1px solid #757575;
+  padding-left: 1.5rem;
+  font-size: 15px;
+}
+
+.input-group{
+  padding: 1% 0;
+  position: relative ;
+}
+
+.input-group i{
+  position: absolute;
+  color: black;
+}
+
+input:focus{
+  background-color: transparent;
+  outline: transparent;
+  border-bottom: 2px solid #084466 ;
+}
+
+input::placeholder{
+  color: transparent;
+}
+
+label{
+  color: #757575;
+  position: relative;
+  left: 1.2em;
+  top: -1.3em;
+  cursor: auto;
+  transition: 0.3s ease all;
+}
+
+input:focus~label,input:not(:placeholder-shown)~label{
+  top: -3em;
+  color: #084466;
+  font-size: 15px;
+}
+
+.recover{
+  text-align: right;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.recover a{
+  text-decoration: none;
+  color: #084466;
+}
+
+.recover a:hover{
+  color: #084466;
+  text-decoration: underline;
+}
+
+.btn{
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none ;
+  border: none ;
+  width: 100% ;
+  background-color: #084466 ;
+  color: white ;
+  cursor: pointer ;
+  transition: 0.9s;
+}
+
+.btn:hover{
+  background-color: #ECF1F4;
+  border: 0.5px solid #757575;
+}
+
+.or{
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.icons{
+  text-align: center;
+}
+
+.icons i{
+  color: #084466;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer ;
+  border: 2px solid;
+  margin: 0 15px;
+  transition: 1s;
+}
+
+
+.icons i:hover{
+  background: #084466;
+  color: white;
+  font-size: 1.5rem;
+  border: 2px solid rgba(red, green, blue, alpha);
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 4rem;
+  margin-top: 1.2rem;
+  font-weight: bold;
+}
+
+button {
+  color: #084466;
+  border: none;
+  background-color:  transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
